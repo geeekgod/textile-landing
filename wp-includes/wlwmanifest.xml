@@ -12,7 +12,7 @@
     <serviceName>WordPress</serviceName>
     <imageUrl>images/wlw/wp-icon.png</imageUrl>
     <watermarkImageUrl>images/wlw/wp-watermark.png</watermarkImageUrl>
-    <homepageLinkText>View site</homepageLinkText>
+    <HomeLinkText>View site</HomeLinkText>
     <adminLinkText>Dashboard</adminLinkText>
     <adminUrl>
       <![CDATA[
