@@ -1186,74 +1186,50 @@
 												</div>
 											</div>
 										</div>
+										<style>
+											.accordion summary::-webkit-details-marker,
+											.accordion summary::marker {
+												display: none;
+												content: "";
+											}
+
+											.accordion details[open] .fa-chevron-down:before {
+												content: "\f077";
+											}
+
+											.dropdown-menu {
+												border: #C0AB89 solid 1px;
+												border-radius: 0px 0px 10px 10px;
+												margin-top: -15px;
+												padding-top: 25px !important;
+											}
+
+										</style>
 										<div
-											class="elementor-element elementor-element-28941d07 elementor-align-justify elementor-widget elementor-widget-button"
-											data-id="28941d07" data-element_type="widget" data-widget_type="button.default">
+											class="accordion elementor-element elementor-element-67190780 elementor-align-justify elementor-widget elementor-widget-button"
+											data-id="67190780" data-element_type="widget" data-widget_type="button.default">
 											<div class="elementor-widget-container">
-												<div class="elementor-button-wrapper">
-													<a href="#products" class="elementor-button-link elementor-button elementor-size-sm"
-														role="button">
-														<span class="elementor-button-content-wrapper">
-															<span class="elementor-button-text">Blended Fabric</span>
-														</span>
-													</a>
-												</div>
-											</div>
-										</div>
-										<div
-											class="elementor-element elementor-element-64e0a468 elementor-align-justify elementor-widget elementor-widget-button"
-											data-id="64e0a468" data-element_type="widget" data-widget_type="button.default">
-											<div class="elementor-widget-container">
-												<div class="elementor-button-wrapper">
-													<a href="#products" class="elementor-button-link elementor-button elementor-size-sm"
-														role="button">
-														<span class="elementor-button-content-wrapper">
-															<span class="elementor-button-text">Polyester Cotton</span>
-														</span>
-													</a>
-												</div>
-											</div>
-										</div>
-										<div
-											class="elementor-element elementor-element-32a34390 elementor-align-justify elementor-widget elementor-widget-button"
-											data-id="32a34390" data-element_type="widget" data-widget_type="button.default">
-											<div class="elementor-widget-container">
-												<div class="elementor-button-wrapper">
-													<a href="#products" class="elementor-button-link elementor-button elementor-size-sm"
-														role="button">
-														<span class="elementor-button-content-wrapper">
-															<span class="elementor-button-text">Polyester Viscose</span>
-														</span>
-													</a>
-												</div>
-											</div>
-										</div>
-										<div
-											class="elementor-element elementor-element-32a34390 elementor-align-justify elementor-widget elementor-widget-button"
-											data-id="32a34390" data-element_type="widget" data-widget_type="button.default">
-											<div class="elementor-widget-container">
-												<div class="elementor-button-wrapper">
-													<a href="#products" class="elementor-button-link elementor-button elementor-size-sm"
-														role="button">
-														<span class="elementor-button-content-wrapper">
-															<span class="elementor-button-text">Cotton Polyester</span>
-														</span>
-													</a>
-												</div>
-											</div>
-										</div>
-										<div
-											class="elementor-element elementor-element-32a34390 elementor-align-justify elementor-widget elementor-widget-button"
-											data-id="32a34390" data-element_type="widget" data-widget_type="button.default">
-											<div class="elementor-widget-container">
-												<div class="elementor-button-wrapper">
-													<a href="#products" class="elementor-button-link elementor-button elementor-size-sm"
-														role="button">
-														<span class="elementor-button-content-wrapper">
-															<span class="elementor-button-text">Cotton Linen</span>
-														</span>
-													</a>
-												</div>
+												<details>
+													<summary class="elementor-button-wrapper">
+														<div href="#" class="elementor-button-link elementor-button elementor-size-sm"
+															role="button">
+															<span class="elementor-button-content-wrapper">
+																<span class="elementor-button-icon elementor-align-icon-right">
+																	<i aria-hidden="true" class="fas fa-chevron-down"></i> </span>
+																<span class="elementor-button-text">Blended Fabric</span>
+															</span>
+														</div>
+													</summary>
+													<div class="dropdown-menu"
+														style="display: flex; justify-content: center; align-items: center; flex-direction: column; padding: 0.7rem;">
+														<ul>
+															<li>Polyester Cotton</li>
+															<li>Polyester Viscose</li>
+															<li>Cotton Polyester</li>
+															<li>Cotton Linen</li>
+														</ul>
+													</div>
+												</details>
 											</div>
 										</div>
 									</div>
